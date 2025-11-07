@@ -1,0 +1,1 @@
+savedcmd_helloworld.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /workspace/repos/linux-stable/scripts/module.lds -o helloworld.ko helloworld.o helloworld.mod.o .module-common.o
